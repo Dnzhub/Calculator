@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table { 
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px;
+    background-color: #a8dadc;
+}
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: #457b9d; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+  
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
