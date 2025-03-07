@@ -107,12 +107,15 @@ function isDivideByZero() {
     return false;
 }
 
+
 function calculateResult() {
     if (!number1 || !selectedOperator || !number2) return;
 
     if (isDivideByZero()) return;
-    let operationResult = operate(selectedOperator, strToNumber(number1), strToNumber(number2));
+    let operationResult = operate(selectedOperator, strToNumber(number1), strToNumber(number2)).toFixed(2);
+
     result.innerText = operationResult;
+
     number1 = operationResult;
     number2 = EMPTY_STRING;
     selectedOperator = EMPTY_STRING;
